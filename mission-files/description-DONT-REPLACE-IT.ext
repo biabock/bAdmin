@@ -1,0 +1,10 @@
+//bAdmin dialog includes
+
+#include "badmin\client\gui_base.hpp"
+#include "badmin\client\systems\common.hpp"
+#include "badmin\client\systems\adminPanel\dialog\adminMenu.hpp"
+#include "badmin\client\systems\adminPanel\dialog\modMenu.hpp"
+#include "badmin\client\systems\adminPanel\dialog\serverAdminMenu.hpp"
+#include "badmin\client\systems\adminPanel\dialog\debugMenu.hpp"
+#include "badmin\client\systems\adminPanel\dialog\shopMenu.hpp"
+#include "badmin\client\systems\adminPanel\dialog\playerMenu.hpp"
