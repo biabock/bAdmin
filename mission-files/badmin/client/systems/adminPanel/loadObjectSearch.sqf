@@ -1,6 +1,6 @@
-// ******************************************************************************************
-// * This project is licensed under the GNU Affero GPL v3. Copyright © 2014 A3Wasteland.com *
-// ******************************************************************************************
+// *****************************************************************************************
+// * This script is licensed under the GNU Lesser GPL v3. Copyright © 2015 A3Wasteland.com *
+// *****************************************************************************************
 // bAdmin Exile by Biabock
 #define objectSearchDialog 55600
 #define objectSearchFindButton 55601
