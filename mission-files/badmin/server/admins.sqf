@@ -9,6 +9,7 @@ if (!isServer) exitWith {};
 if (loadFile (externalConfigFolder + "\admins.sqf") != "") then
 {
 	call compile preprocessFileLineNumbers (externalConfigFolder + "\admins.sqf");
+	diag_log "bAdmin - External admins.sqf loaded";
 }
 else
 {
@@ -46,6 +47,8 @@ else
 	];
 
 	/********************************************************/
+	diag_log "bAdmin - ERROR! \bAdmin_settings\admins.sqf not found!";
+	diag_log "bAdmin - This folder must be in the server directory";
 };
 
 if (typeName lowAdmins == "ARRAY") then { lowAdmins = compileFinal str lowAdmins };

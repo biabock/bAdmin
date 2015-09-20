@@ -12,5 +12,6 @@ if (isDedicated) exitWith {};
 [] execVM "badmin\client\camera\functions.sqf";
 
 isAdmin = "badmin\client\systems\adminPanel\isAdmin.sqf" call mf_compile;//
+A3W_fnc_titleTextMessage = "badmin\client\titleTextMessage.sqf" call mf_compile;
 
 diag_log "bAdmin - Client Compile Complete";
