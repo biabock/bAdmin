@@ -91,7 +91,7 @@ if (_uid call isAdmin) then
 				case 2: //TP Player to Me
 				{
 					closeDialog 0;
-					execVM "badmin\client\systems\adminPanel\tpmeto.sqf";
+					execVM "badmin\client\systems\adminPanel\tptome.sqf";
 				};
 			};
 		};
